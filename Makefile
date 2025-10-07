@@ -6,6 +6,8 @@ build:; forge build
 
 test:; forge test
 
+anvil:; anvil
+
 forge install:; forge install cyfrin/foundry-devops --no-git && forge install smartcontractkit/chainlink-brownie-contracts --no-git && forge install foundry-rs/forge-std --no-git && forge install transmissions11/solmate --no-git
 
 deploy-sepolia:
